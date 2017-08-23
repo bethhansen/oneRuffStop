@@ -36,12 +36,13 @@ font-family: 'Chelsea Market', cursive;*/
 }
 .facility h1 {
   font-size: 85px;
+  margin-top: -20px;
 }
 .location {
   width: 300px;
   height: 100px;
   float: left;
-  margin-left: 20px
+  margin-left: 22%;
   text-align: center;
   font-size: 25px;
   font-weight: bolder;
@@ -54,23 +55,27 @@ font-family: 'Chelsea Market', cursive;*/
 .circle1 {
   width: 100px;
   height: 100px;
-  background-color: white;
+  /*background-color: #8CC63E;*/
   border-radius: 50%;
   margin-left: 7%;
   border: 5px solid #008742;
+  background-image: url("../img/dog1.png");
+  background-size: cover;
+
 }
 .start-up-header {
   margin-top: 30px;
   width: 250px;
   height: 40px;
-  background-color: white;
+  background-color: #8CC63E;
   font-size: 15px;
   color: #1579B4;
   font-family: 'Love Ya Like A Sister', cursive;
   font-weight: bolder;
   text-align: center;
   padding-top: 5px;
-
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px #888888;
 }
 .circle2 {
   width: 100px;
@@ -78,17 +83,20 @@ font-family: 'Chelsea Market', cursive;*/
   background-color: white;
   border-radius: 50%;
   border: 5px solid #008742;
+  background-image: url("../img/dog2.png");
+  background-size: cover;
 }
 .pricing-header {
   margin-left: 40%;
   margin-top: 30px;
   width: 250px;
   height: 40px;
-  background-color: white;
+  background-color: #8CC63E;
   font-size: 18px;
   color: #1579B4;
   font-family: 'Love Ya Like A Sister', cursive;
   font-weight: bolder;
+  border-radius: 8px;
   text-align: center;
   padding-top: 5px;
 }
@@ -99,21 +107,25 @@ font-family: 'Chelsea Market', cursive;*/
   border-radius: 50%;
   margin-left: 22%;
   border: 5px solid #008742;
+  background-image: url("../img/dog3.png");
+  background-size: cover;
 }
 .facility-header {
   margin-top: 30px;
   width: 250px;
   height: 40px;
-  background-color: white;
+  background-color: #8CC63E;
   font-size: 18px;
   color: #1579B4;
   font-family: 'Love Ya Like A Sister', cursive;
   font-weight: bolder;
+  border-radius: 8px;
   text-align: center;
   padding-top: 5px;
 }
-.testamonials {
+.facility-footer {
   height: 29.3%;
   width: 100%;
-  background-color: #8CC63E;
+  background-image: url("../img/facility3.jpg");
+  background-position: bottom;
 }
