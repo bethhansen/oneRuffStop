@@ -7,22 +7,22 @@ font-family: 'Chelsea Market', cursive;*/
   box-sizing:border-box;
   border:1px dashed #000;
 }
+.container {
+}
+
 .row {
-  border: 2px solid red;
   height: auto;
   width: auto;
 }
 .side-bar {
+  justify-content: space-between;
   width: 40%;
   height: 900px;
-  background-color: yellow;
-
+  background-color: #FFFF88;
 }
-.main {
-  border: 2px solid black;
+.main-content {
   width: 60%;
   height: 900px;
-  background-color: blue;
 }
 .facility {
   height: 33.3%;
@@ -37,13 +37,43 @@ font-family: 'Chelsea Market', cursive;*/
 .facility h1 {
   font-size: 85px;
 }
+.location {
+  width: 300px;
+  height: 100px;
+  float: left;
+  text-align: center;
+}
 .nav-bar {
-  height: 33.3%;
+  height: 37.3%;
   width: 100%;
-  background-color: blue;
+  background-color: #1579B4;
+}
+.start-up-kit {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 20%;
+  border: 5px solid #008742;
+}
+.pricing {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 70%;
+  border: 5px solid #008742;
+}
+.facility-rules {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 20%;
+  border: 5px solid #008742;
 }
 .testamonials {
-  height: 33.3%;
+  height: 29.3%;
   width: 100%;
-  background-color: green;
+  background-color: #8CC63E;
 }
