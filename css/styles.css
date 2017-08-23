@@ -3,10 +3,10 @@
 font-family: 'Love Ya Like A Sister', cursive;
 font-family: 'Frijole', cursive;
 font-family: 'Chelsea Market', cursive;*/
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
-}
+}*/
 .container {
 }
 
@@ -41,36 +41,76 @@ font-family: 'Chelsea Market', cursive;*/
   width: 300px;
   height: 100px;
   float: left;
+  margin-left: 20px
   text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
 }
 .nav-bar {
   height: 37.3%;
   width: 100%;
   background-color: #1579B4;
 }
-.start-up-kit {
+.circle1 {
   width: 100px;
   height: 100px;
   background-color: white;
   border-radius: 50%;
-  margin-left: 20%;
+  margin-left: 7%;
   border: 5px solid #008742;
 }
-.pricing {
+.start-up-header {
+  margin-top: 30px;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  font-size: 15px;
+  color: #1579B4;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5px;
+
+}
+.circle2 {
   width: 100px;
   height: 100px;
   background-color: white;
   border-radius: 50%;
-  margin-left: 70%;
   border: 5px solid #008742;
 }
-.facility-rules {
+.pricing-header {
+  margin-left: 40%;
+  margin-top: 30px;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  font-size: 18px;
+  color: #1579B4;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5px;
+}
+.circle3 {
   width: 100px;
   height: 100px;
   background-color: white;
   border-radius: 50%;
-  margin-left: 20%;
+  margin-left: 22%;
   border: 5px solid #008742;
+}
+.facility-header {
+  margin-top: 30px;
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  font-size: 18px;
+  color: #1579B4;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5px;
 }
 .testamonials {
   height: 29.3%;
