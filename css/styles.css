@@ -1,0 +1,49 @@
+/* For testing only */
+/*font-family: 'Luckiest Guy', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Chelsea Market', cursive;*/
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+.row {
+  border: 2px solid red;
+  height: auto;
+  width: auto;
+}
+.side-bar {
+  width: 40%;
+  height: 900px;
+  background-color: yellow;
+
+}
+.main {
+  border: 2px solid black;
+  width: 60%;
+  height: 900px;
+  background-color: blue;
+}
+.facility {
+  height: 33.3%;
+  width: 100%;
+  background-image: url("../img/background1.jpg");
+  background-size: contain;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.facility h1 {
+  font-size: 85px;
+}
+.nav-bar {
+  height: 33.3%;
+  width: 100%;
+  background-color: blue;
+}
+.testamonials {
+  height: 33.3%;
+  width: 100%;
+  background-color: green;
+}
