@@ -5,6 +5,25 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css?family=Chelsea+Market|Frijole|Henny+Penny|Love+Ya+Like+A+Sister|Luckiest+Guy|Walter+Turncoat" rel="stylesheet">
     <title>One Ruff Stop</title>
   </head>
@@ -14,14 +33,37 @@
       <div class="row">
 
         <div class="side-bar col-md-4">
-          <div class="hours">
-
+          <div class="row hours">
+            <h2>Hours of operation</h2>
+            <p>Mon-Thur 10am - 9pm</p>
+            <p>Fri & Sat 10am - 8pm</p>
+            <p>Sunday 10am - 7pm</p>
           </div>
-          <div class="testamonials">
+          <div class="row testamonials">
+            <div class="carousel">
+          <input id="image1" type="radio" name="image-selector" checked="checked" />
+          <label for="image4">View image 4</label>
+          <img src="img/facility1.jpg" />
 
+          <input id="image2" type="radio" name="image-selector" />
+          <label for="image1">View image 1</label>
+          <img src="img/facility2.jpg" />
+
+          <input id="image3" type="radio" name="image-selector" />
+          <label for="image2">View image 2</label>
+          <img src="img/facility3.jpg" />
+
+          <input id="image4" type="radio" name="image-selector" />
+          <label for="image3">View image 3</label>
+          <img src="img/facility1.jpg" />
+
+          <label for="image4">View image 4</label>
+          <label for="image1">View image 1</label>
+        </div>
           </div>
-          <div class="map">
-            <img src="img/map1.jpg" alt="">
+          <div class="row map">
+            <h2>Our location</h2>
+            <img src="img/map.jpg" alt="">
           </div>
         </div><!--side-bar-->
 
@@ -44,7 +86,9 @@
               <p>Download your Start-Up-Kit</p>
             </div><!--start-up-header-->
           </div><!--start-up-kit-->
-
+          <div class="paws">
+            <img src="paws" alt="">
+          </div>
           <div class="row pricing">
             <div class="pricing-header col-md-6">
               <p>Pricing</p>
